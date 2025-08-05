@@ -1,5 +1,7 @@
 # Flask Users API with Swagger
 
+<img width="1487" height="806" alt="Image" src="https://github.com/user-attachments/assets/0b685d7e-b753-4e6f-8052-af0ad39d09b6" />
+
 A simple Flask REST API to manage users with home and work addresses, using SQLite and documented with Swagger UI via Flasgger.
 
 ## Setup Instructions
@@ -20,4 +22,4 @@ http://localhost:5000/apidocs
 | POST   | `/users/<user_id>/home` | Add home address for a user  | `{ "address": "123 Maple Street" }`        | `curl -X POST http://localhost:5000/users/1/home -H "Content-Type: application/json" -d '{"address":"123 Maple Street"}'` |
 | POST   | `/users/<user_id>/work` | Add work address for a user  | `{ "address": "789 Work Avenue" }`         | `curl -X POST http://localhost:5000/users/1/work -H "Content-Type: application/json" -d '{"address":"789 Work Avenue"}'`  |
 
-<img width="1487" height="806" alt="Image" src="https://github.com/user-attachments/assets/0b685d7e-b753-4e6f-8052-af0ad39d09b6" />
+
