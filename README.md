@@ -19,3 +19,5 @@ http://localhost:5000/apidocs
 | POST   | `/users`                | Add a new user               | `{ "name": "Alice", "phone": 1234567890 }` | `curl -X POST http://localhost:5000/users -H "Content-Type: application/json" -d '{"name":"Alice","phone":1234567890}'`   |
 | POST   | `/users/<user_id>/home` | Add home address for a user  | `{ "address": "123 Maple Street" }`        | `curl -X POST http://localhost:5000/users/1/home -H "Content-Type: application/json" -d '{"address":"123 Maple Street"}'` |
 | POST   | `/users/<user_id>/work` | Add work address for a user  | `{ "address": "789 Work Avenue" }`         | `curl -X POST http://localhost:5000/users/1/work -H "Content-Type: application/json" -d '{"address":"789 Work Avenue"}'`  |
+
+<img width="1487" height="806" alt="Image" src="https://github.com/user-attachments/assets/0b685d7e-b753-4e6f-8052-af0ad39d09b6" />
